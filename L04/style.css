@@ -1,0 +1,33 @@
+html {
+    background-color: blanchedalmond;
+}   
+body {
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: chocolate;
+}
+div {
+    text-align: center;
+}
+.text1 {
+    font-weight: bold;
+    color: brown;
+    text-shadow:   -4px -4px 6px rgba(0, 255, 0, 0.6);
+}
+.text2 {
+    font-weight: bold;
+    color: blueviolet;
+    text-shadow: 4px 4px 6px rgba(255, 0, 0, 0.6);
+}
+.text3 {
+    font-weight: bold;
+    color: rgb(102, 66, 9);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
