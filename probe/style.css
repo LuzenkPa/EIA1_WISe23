@@ -1,0 +1,15 @@
+html{
+    display: flex;
+    background-color: gray;
+    border:solid;
+    border-color: blue;
+    border-width: initial;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    background-color: darkcyan;
+    border: solid;
+    border-width: thick;
+    border-color: blueviolet;
+}
