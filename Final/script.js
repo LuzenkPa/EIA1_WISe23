@@ -3,20 +3,23 @@ let seconds = 0;
 let minutes = 0;
 let hours = 0;
 
-function startTimer() {
+function startTime() {
   timer = setInterval(updateDisplay, 1000);
 }
 
-function stopTimer() {
+function stopTime() {
   clearInterval(timer);
 }
 
-function resetTimer() {
+function resetTime() {
   clearInterval(timer);
   seconds = 0;
   minutes = 0;
   hours = 0;
   updateDisplay();
+}
+function saveTime(){
+
 }
 
 function updateDisplay() {
@@ -38,6 +41,7 @@ function pad(value) {
   return value < 10 ? `0${value}` : value;
 }
 
-document.querySelector('.start').addEventListener('click', startTimer);
-document.querySelector('.stop').addEventListener('click', stopTimer);
-document.querySelector('.reset').addEventListener('click', resetTimer);
+document.querySelector('.start').addEventListener('click', startTime);
+document.querySelector('.stop').addEventListener('click', stopTime);
+document.querySelector('.reset').addEventListener('click', resetTime);
+document.querySelector('.save').addEventListener('click', saveTime);

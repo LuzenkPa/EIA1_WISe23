@@ -1,33 +1,4 @@
-html {
-    background-color: aqua;
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .form-group {
-    text-align: center;
-    border: 2px solid red;
-    padding: 20px;
-    border-radius: 8px;
-    box-sizing: border-box;
-  }
-  
-  .question {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .input-field {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+body{
+    background-color: antiquewhite;
+    color: blue;
 }
