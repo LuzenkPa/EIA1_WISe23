@@ -17,7 +17,8 @@
 body {
     background-color: var(--color4);
 }
-#packing{
+
+#packing {
     max-width: 400px;
     max-height: 10000px;
     background-color: var(--color3);
@@ -26,6 +27,7 @@ body {
     border: 3px solid var(--color2);
     margin: 15% auto 0px;
 }
+
 .divs {
     max-width: 400px;
     max-height: 10000px;
@@ -35,7 +37,7 @@ body {
     border: 3px solid var(--color2);
 }
 
-.buttons{
+.buttons {
     cursor: pointer;
     color: var(--color5);
     background-color: var(--color1);
@@ -43,6 +45,7 @@ body {
     border: 3px solid var(--color2);
     margin: 1px auto 1%;
 }
+
 #Zeit {
     color: var(--color2);
     background-color: var(--color3);

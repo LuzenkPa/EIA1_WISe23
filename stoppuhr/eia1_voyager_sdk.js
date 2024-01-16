@@ -91,19 +91,19 @@ function eventHandler(data) {
 }
 
 function handleLoaded() {
-    
+
 }
 function handleTouch12() {
     console.log("Touch 12 gemacht.");
     start();
 }
-function handleTouch13() { 
+function handleTouch13() {
     console.log("Touch 13 gemacht.");
     darken();
 }
 function handleTouch14() {
     console.log("Touch 14 gemacht.");
-   
+
 }
 function handleTouch27() {
     console.log("Touch 27 gemacht.");
@@ -114,6 +114,7 @@ function handleTouch32() {
     stop();
 }
 function handleTouch33() {
+    doShoutout();
 }
 
 /**
